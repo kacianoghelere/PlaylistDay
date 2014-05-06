@@ -1,0 +1,291 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+/*css reset*/
+*:focus {
+    outline: 0;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+::-webkit-input-placeholder {
+   color: #333; 
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #333;   
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #333;  
+}
+
+:-ms-input-placeholder {  
+   color: #333;  
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	float: left;
+}
+
+/* tira seleção de pontilhado de imagens e links */
+img {border:none}
+img:active{border:none;}
+a {
+outline: none;
+text-decoration:none;
+color:#333;
+}
+
+input[type="text"]{
+	padding: 5px;
+	border: 1px solid #06949D;
+	font-size: 2.8em;
+    font-family: 'Lato', 'sans-serif';
+    color:#9E9E9E;
+}
+
+input[type="button"]{
+	border:none;
+	outline: none;
+}
+
+input[type="submit"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner {    
+    border: none;
+    font-weight: normal;
+    outline: none;
+    font-family: 'Lato', 'sans-serif';
+}  
+/*Para IE8 */ 
+input[type="submit"]:focus, input[type="button"]:focus {      
+    outline : none; 
+    font-weight: normal;
+    font-family: 'Lato', 'sans-serif';
+}
+
+h3{
+	font-size: 2.8em;
+    font-family: 'Lato', 'sans-serif';
+    color:#9E9E9E;
+}
+
+/*css reset*/
+
+body{
+	font-size:62.5%;
+	font-family: 'Lato', 'sans-serif';
+	background: #FFF;
+}
+
+
+#topo{
+	width: 100%;
+	height: 73px;
+	background: #06949D;
+	float: left;
+}
+
+#tp-centro{
+	width: 930px;
+	height: 70px;
+	margin:0 auto;
+}
+
+.tp-marca{
+	width: 159px;
+	height: 70px;
+	margin: 20px auto;
+}
+
+.tp-marca img{
+	width: 100%;
+}
+
+#content{
+	width: 930px;
+	margin:0 auto;
+}
+
+.cont-esq{
+	width: 587px;
+	height: auto;
+	margin: 45px 0px 0px 0px;
+	float: left;
+}
+
+#player{
+	width: 587px;
+	height: 315px;
+	float: left;
+}
+
+.search{
+	width: 587px;
+	height: auto;
+	margin: 15px 0px 0px 0px;
+	float: left;
+}
+
+.fr-search input[type="text"]{
+	width: 575px;
+	height: 41px;
+	float: left;
+}
+
+.search-bk{
+	background: url(../imagem/loading.gif) no-repeat center right;
+}
+
+.results{
+	width: 587px;
+	height: 600px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	float: left;
+}
+
+.results li{
+	width: 558px;
+	height: auto;
+	padding: 5px;
+	margin: 1px 0px 0px 0px; 
+	background: #06949D;
+	cursor: pointer;
+	float: left;
+}
+
+.results li img{
+	width: 82px;
+	height: 55px;
+	margin: 0px 10px 0px 0px;
+}
+
+.results li span{
+	width: 460px;
+	height: auto;
+	font-size: 2.0em;
+	color: #333;
+}
+
+.repro{
+	width: 258px;
+	height: auto;
+	float: right;
+}
+
+.repro h3{
+	width: 258px;
+	padding: 8px 0px;
+}
+
+.playlist{
+	width: 258px;
+	height: auto;
+	min-height: 315px;
+	background: #222222;
+	float: left;
+}
+
+.playlist li{
+	width: 248px;
+	height: auto;
+	padding: 5px;
+	font-size: 1.4em;
+	color: #FFF;
+	cursor: pointer;
+}
+
+.playlist li:hover{
+	background: #888888;
+}
+
+.playlist li img{
+	width: 15px;
+	height: 15px;
+	margin: 0px 5px 0px 0px;
+	float: left;
+}
+
+.controls{
+	width: 258px;
+	height: 40px;
+	float: left;
+}
+
+.controls h3{
+	width: 258px;
+	margin: 10px 0px 5px 0px;
+	padding: 0px;
+}
+
+.controls ul{
+	width: 190px;
+	margin: 0 auto;
+}
+
+.controls li{
+	width: 35px;
+	height: 40px;
+	padding: 5px;
+	float: left;
+	cursor: pointer;
+}
+
+#rodape{
+	width: 100%;
+	height: 73px;
+	margin: 30px 0px 0px 0px;
+	background: #D1D1D1;
+	line-height: 73px;
+	text-align: center;
+	font-size: 2.0em;
+    font-family: 'Lato', 'sans-serif';
+    color:#888888;
+	float: left;
+}
