@@ -74,7 +74,7 @@
 	</section><!-- Fim #content -->	
 
 	<footer id="rodape">
-		beta 1.0a - contato@playlistday.com.br 
+		beta 24.0a - contato@playlistday.com.br - Felipe, o Homem-Gato
 	</footer> <!-- Fim #rodape -->
 
 </body>
